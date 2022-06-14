@@ -8,4 +8,4 @@ resources:
 images:
 - name: zalerix/continuous-delivery-example:latest
   newName: zalerix/continuous-delivery-example
-  newTag: 0.0.0
+  newTag: 1.2.0
