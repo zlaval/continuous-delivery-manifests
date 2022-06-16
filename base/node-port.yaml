@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: cd-example-url
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - name: app-port
       port: 8080
       targetPort: 8080
+      nodePort: 30001
   selector:
      name: cd-example
